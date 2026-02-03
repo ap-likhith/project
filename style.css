@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header */
+.header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/hero-background.jpg") center/cover no-repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.sign-in {
+    background: red;
+    color: white;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header-content h2 {
+    margin: 20px 0;
+    font-weight: normal;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+.email-box {
+    margin-top: 20px;
+}
+
+.email-box input {
+    padding: 15px;
+    width: 350px;
+    border: none;
+    font-size: 16px;
+}
+
+.email-box button {
+    padding: 15px 25px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Feature Section */
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 60px;
+    border-top: 8px solid #222;
+}
+
+.feature.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    font-size: 20px;
+}
+
+.feature img {
+    width: 400px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 8px solid #222;
+    color: #aaa;
+}
